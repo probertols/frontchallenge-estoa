@@ -42,6 +42,15 @@ $ npm run dev
 
 ```
 
+
+### Link do Projeto - v1.0
+
+<h5 align="center"> 
+	🚀 Projeto `https://frontchallenge-estoa-954m7isl4-probertols.vercel.app/`
+</h5>
+
+ 
+
 [git]: https://git-scm.com/doc
 [github]: https://docs.github.com/en
 [reactjs]: https://reactjs.org
