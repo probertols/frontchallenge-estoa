@@ -20,7 +20,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Next][nextjs]
 - [Git][git]
 - [Github][github] 
-- [NPM][NPM]
+- [NPM][npm]
 
 
 ### 🧭 Rodando a aplicação web (Front End)
@@ -48,3 +48,4 @@ $ npm run dev
 [tailwind]: https://tailwindcss.com/
 [nextjs]: https://nextjs.org/
 [html]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[npm]: https://www.npmjs.com/
