@@ -1,48 +1,50 @@
-# Estoa front-end challenge
+<h4 align="center"> 
+    FrontChallenge Estoa - StarWars 🚀
+</h4>
 
-O objetivo do desafio consumir a api: [Star Wars](https://swapi.dev/api).
 
-## Algumas regras
+## 💻 About Project
 
-- A aplicação não pode ser estática. Ela deve possuir alguma inteligência para exibir o catálogo de  personagens dinamicamente.
-- Caso você opte por utilizar alguma ferramenta de _build_, não se esqueça de criar um arquivo com instruções para rodarmos o projeto.
-- Se você estiver com dúvidas, busque por referências no Google, ou pergunte para amigos. Mas não peça para eles resolverem o desafio para você.
+Projeto para consumir informação da API do starwars , me desafiei ao máximo ao tentar realizar em next mesmo não conhecendo nada, foi legal.
+Aprendi algumas coisas, talvez se eu tivesse feito em CRA (já em desuso) ou Vite, teria feito 100%. 
 
-## Requisitos
 
-- A página deve ser responsiva. Se possível, utilize a abordagem _mobile-first_.
-- Mostrar uma página de catálogo com a lista de personagens Star Wars (ver [documentação](https://swapi.dev/documentation#people)).
-    - name
-    - species
-    - birth_year
-    
-- Quando seleciona um personagem, abre uma página de detalhes com as informações:
-    - name
-    - birth_year
-    - eye_color 
-    - gender
-    - hair_color
-    - height 
-    - mass
-    - skin_color
-    - homeworld
-    - films
-    - species
-    
-- Bónus:
+## 🛠 Tecnologias
 
-    - filtro por filme no catálogo
-    - obter uma thumbnail da internet
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Diferenciais
 
-- Achou o teste até aqui fácil? Que tal adicionar um filtro para mostrar só os personagens por filmes (`films`)?
-- Todos gostamos de código limpo e testável, certo? Teste sua aplicação e os componentes, esse será um grande diferencial.
+- [HTML][html]
+- [Tailwind][tailwind]
+- [React][reactjs]
+- [Next][nextjs]
+- [Git][git]
+- [Github][github] 
+- [NPM][NPM]
 
-## Critérios de avaliação
 
-- O código será avaliado considerando: semântica, estruturação, legibilidade, tamanho, entre outros fatores.
-- O histórico do `git` também será avaliado.
-- Aqui na **Estoa**, utilizamos **React** nos novos projetos. Caso você tenha familiaridade com ela, pode utilizá-la para resolver o desafio.
-- Estamos buscando um desenvolvedor front-end que saiba montar um _layout_ bonito e que também saiba programar em JavaScript, por isso aproveite a oportunidade para nos mostrar que você tem conhecimento nas duas áreas.
-- Não esqueça da documentação. Ou como nós iremos conseguir avaliar o trabalho se não for possível inicializar o projeto em nossas máquinas?
+### 🧭 Rodando a aplicação web (Front End)
+
+```bash 
+# Clone este repositório
+$ git clone https://github.com/probertols/frontchallenge-estoa
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd frontchallenge-estoa
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+[git]: https://git-scm.com/doc
+[github]: https://docs.github.com/en
+[reactjs]: https://reactjs.org
+[tailwind]: https://tailwindcss.com/
+[nextjs]: https://nextjs.org/
+[html]: https://developer.mozilla.org/en-US/docs/Web/HTML
